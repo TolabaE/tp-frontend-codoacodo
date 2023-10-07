@@ -1,14 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;1,500&display=swap');
+
 *{
     padding: 0;
     margin: 0;
 }
 header{
-    background-color: rgb(47, 47, 47);
+    padding: 10px;
+    background-color:rgb(57, 56, 59);
 }
-
+.logo-container{
+    display: flex;
+    align-items: center;
+}
 .image-logo{
-    width: 100px;
+    width: 80px;
 }
 .logo-container p{
     color: beige;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-top: 8px;
+}
+.menu li{
+    list-style-type: none;
+}
+.menu a{
+    text-decoration: none;
+    color: rgb(175, 176, 176);
+}
+.menu a:hover{
+    color: #fff;
+}
+.menu .list-last a{
+    color: green;
+}
+/* estilos del home */
+.home__page{
+    background-image: url('../images/ba1.jpg');
+    backface-visibility: visible;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    /* opacity: 3; */
+}
+.home__page-info{
+    position: absolute;
+    color: #fff;
+    text-align: right;
+    width: 500px;
+    right: 10vw;
+    top: 40%;
+}
+.home__page-info p{
+    font-weight: 600;
+}
+.btn-home{
+    border: 0;
+    padding: 5px;
+    color: #fff;
+    margin: 2px;
+}
+.btn-one{
+    background-color: transparent;
+    border: 2px solid #fff;
+    padding: 2px;
+}
+.btn-two{
+    background-color: #0bbe0b;
 }
