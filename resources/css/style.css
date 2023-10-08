@@ -52,7 +52,6 @@ header{
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
-    /* opacity: 3; */
 }
 .home__page-info{
     position: absolute;
@@ -78,4 +77,59 @@ header{
 }
 .btn-two{
     background-color: #0bbe0b;
+}
+/* estilos de la seccion card */
+
+.section-card{
+    padding: 10px;
+}
+.card__container{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+.card__children-container{
+    width: 400px;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+.card__children-container img{
+    width: 100%;
+    border-radius: 4px 4px 0 0;
+}
+.card__children-container div{
+    padding: 25px 20px 0 20px;
+    text-align: left;
+}
+.span-card{
+    padding:2px 5px; 
+    font-weight:700;
+    border-radius: 6px;
+}
+.span1{
+    background-color: orange;
+    margin-right: 6px;
+}
+.span2{
+    background-color: rgb(101, 170, 197);
+    color:#fff;
+}
+.span3{
+    background-color: gray;
+    margin-right: 6px;
+    color:#fff;
+}
+.span4{
+    background-color: rgb(202, 6, 6);
+    color:#fff;
+}
+.card__children-container h3{
+    margin-top: -15px;
+    font-weight: 600;
+}
+.card__children-container p{
+    font-size:14px;
+}
+.title-section-card{
+    text-align: center;
 }
