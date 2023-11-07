@@ -4,6 +4,9 @@
     padding: 0;
     margin: 0;
 }
+body{
+    background-color: beige;
+}
 header{
     padding: 10px;
     background-color:rgb(57, 56, 59);
@@ -203,4 +206,70 @@ header{
     background-color: #78ab63;
     padding: 10px;
     border-radius: 8px;
+}
+.section-pay{
+    padding: 20px;
+    text-align: center;
+}
+.card-pay-container{
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+.card-pay-children{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    height: 150px;
+    border: 2px solid rgb(93, 165, 209);
+}
+.card-altern{
+    border-color: rgb(207, 207, 12);
+}
+.p-document{
+    color: grey;
+}
+.input__name input{
+    width: 50%;
+}
+.form-container{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    width: 60%;
+    margin: auto;
+}
+.form-container input{
+    height: 40px;
+}
+.input__name{
+    display: flex;
+}
+.select-input{
+    display: flex;
+}
+.select-input div{
+    width: 100%;
+    gap: 10px;
+}
+.select-input input{
+    width: 100%;
+}
+.form-span{
+    background-color: #5faed8;
+    text-align: left;
+    padding:15px;
+}
+.btn-form{
+    display: flex;
+    gap: 0 15px;
+}
+.btn-form input{
+    width: 50%;
+    border: 0;
+    background-color: rgb(159, 227, 58);
+    border-radius: 8px;
+    color: #fff;
 }
